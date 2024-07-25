@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/game.css">
+  <title>Piedra - Papel - Tijera</title>
+</head>
+
+<body>
+  <h1>Piedra - Papel - Tijera</h1>
+  <div class="container">
+    <div class="shift">
+      <div class="container-user">
+        <h2>Usuario elije:</h2>
+        <div class="buttons">
+          <button id="rock">Piedra</button>
+          <button id="paper">Papel</button>
+          <button id="scissor">Tijera</button>
+        </div>
+      </div>
+      <div class="container-cpu">
+        <h2>Computadora elije:</h2>
+        <p id="cpu-choice">¿Qué opción eligirá la cpu?</p>
+      </div>
+    </div>
+    <div class="container-score">
+      <div class="user-score">
+        <p>User</p>
+        <p id="user-score">0</p>
+      </div>
+      <div class="cpu-score">
+        <p>CPU</p>
+        <p id="cpu-score">0</p>
+      </div>
+    </div>
+    <div class="container-result">
+      <p id="result"></p>
+    </div>
+    <a class="anchor-game" href="index.html">Volver</a>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #046ac9;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 0 0 10px #0781eb;
+}
+
+a {
+  margin-top: 2rem;
+  font-size: 4rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: green;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
